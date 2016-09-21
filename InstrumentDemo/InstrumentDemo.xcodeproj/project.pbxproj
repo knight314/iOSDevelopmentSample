@@ -15,6 +15,7 @@
 		1893BEEE1D90204600AF3F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1893BEEC1D90204600AF3F4E /* LaunchScreen.storyboard */; };
 		1893BEF91D90204600AF3F4E /* InstrumentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1893BEF81D90204600AF3F4E /* InstrumentDemoTests.m */; };
 		1893BF041D90204600AF3F4E /* InstrumentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1893BF031D90204600AF3F4E /* InstrumentDemoUITests.m */; };
+		1893BF131D90290B00AF3F4E /* GJColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1893BF121D90290B00AF3F4E /* GJColorView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1893BEFF1D90204600AF3F4E /* InstrumentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstrumentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1893BF031D90204600AF3F4E /* InstrumentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstrumentDemoUITests.m; sourceTree = "<group>"; };
 		1893BF051D90204600AF3F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1893BF111D90290B00AF3F4E /* GJColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJColorView.h; sourceTree = "<group>"; };
+		1893BF121D90290B00AF3F4E /* GJColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJColorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		1893BEDD1D90204600AF3F4E /* InstrumentDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1893BF111D90290B00AF3F4E /* GJColorView.h */,
+				1893BF121D90290B00AF3F4E /* GJColorView.m */,
 				1893BEE11D90204600AF3F4E /* AppDelegate.h */,
 				1893BEE21D90204600AF3F4E /* AppDelegate.m */,
 				1893BEE41D90204600AF3F4E /* ViewController.h */,
@@ -273,6 +278,7 @@
 				1893BEE61D90204600AF3F4E /* ViewController.m in Sources */,
 				1893BEE31D90204600AF3F4E /* AppDelegate.m in Sources */,
 				1893BEE01D90204600AF3F4E /* main.m in Sources */,
+				1893BF131D90290B00AF3F4E /* GJColorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstrumentDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gj.InstrumentDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstrumentDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gj.InstrumentDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

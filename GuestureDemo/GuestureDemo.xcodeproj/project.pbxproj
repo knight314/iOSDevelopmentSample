@@ -15,6 +15,9 @@
 		18A853A91D916F20006E763F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A853A71D916F20006E763F /* LaunchScreen.storyboard */; };
 		18A853B41D916F20006E763F /* GuestureDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A853B31D916F20006E763F /* GuestureDemoTests.m */; };
 		18A853BF1D916F20006E763F /* GuestureDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A853BE1D916F20006E763F /* GuestureDemoUITests.m */; };
+		18A853CE1D917010006E763F /* BNRLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A853CD1D917010006E763F /* BNRLine.m */; settings = {ASSET_TAGS = (); }; };
+		18A853D11D917092006E763F /* BNRDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A853D01D917092006E763F /* BNRDrawView.m */; settings = {ASSET_TAGS = (); }; };
+		18A853D41D9170F5006E763F /* BNRDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A853D31D9170F5006E763F /* BNRDrawViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		18A853BA1D916F20006E763F /* GuestureDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuestureDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A853BE1D916F20006E763F /* GuestureDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuestureDemoUITests.m; sourceTree = "<group>"; };
 		18A853C01D916F21006E763F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A853CC1D917010006E763F /* BNRLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRLine.h; sourceTree = "<group>"; };
+		18A853CD1D917010006E763F /* BNRLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRLine.m; sourceTree = "<group>"; };
+		18A853CF1D917092006E763F /* BNRDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawView.h; sourceTree = "<group>"; };
+		18A853D01D917092006E763F /* BNRDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawView.m; sourceTree = "<group>"; };
+		18A853D21D9170F5006E763F /* BNRDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDrawViewController.h; sourceTree = "<group>"; };
+		18A853D31D9170F5006E763F /* BNRDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,12 @@
 		18A853981D916F20006E763F /* GuestureDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18A853CC1D917010006E763F /* BNRLine.h */,
+				18A853CD1D917010006E763F /* BNRLine.m */,
+				18A853D21D9170F5006E763F /* BNRDrawViewController.h */,
+				18A853D31D9170F5006E763F /* BNRDrawViewController.m */,
+				18A853CF1D917092006E763F /* BNRDrawView.h */,
+				18A853D01D917092006E763F /* BNRDrawView.m */,
 				18A8539C1D916F20006E763F /* AppDelegate.h */,
 				18A8539D1D916F20006E763F /* AppDelegate.m */,
 				18A8539F1D916F20006E763F /* ViewController.h */,
@@ -270,8 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A853D11D917092006E763F /* BNRDrawView.m in Sources */,
+				18A853D41D9170F5006E763F /* BNRDrawViewController.m in Sources */,
 				18A853A11D916F20006E763F /* ViewController.m in Sources */,
 				18A8539E1D916F20006E763F /* AppDelegate.m in Sources */,
+				18A853CE1D917010006E763F /* BNRLine.m in Sources */,
 				18A8539B1D916F20006E763F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

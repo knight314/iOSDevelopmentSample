@@ -7,6 +7,7 @@
 //
 
 #import "BNRDrawViewController.h"
+#import "BNRDrawView.h"
 
 @interface BNRDrawViewController ()
 
@@ -24,6 +25,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)loadView{
+    self.view = [[BNRDrawView alloc]init];
+
+}
 /*
 #pragma mark - Navigation
 
